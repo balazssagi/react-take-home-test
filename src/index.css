@@ -1,0 +1,30 @@
+html {
+  --spacing-md: 1rem;
+  --spacing-xl: 3rem;
+
+  --color-bg: #0D2436;
+  --color-text: #ffffff;
+  --color-card-bg: #132f45;
+  --color-card-bg-hover: #1c3e58;
+  --color-primary: #009b86;
+  --color-primary-light: #34ac9c;
+  --color-primary-text: #ffffff;
+
+  --border-radius: 16px;
+
+  --transition-md: 200ms;
+
+  --font-sans-serif: "Roboto", sans-serif
+}
+
+body {
+  font-family: var(--font-sans-serif);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}

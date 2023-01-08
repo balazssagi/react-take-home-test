@@ -1,0 +1,15 @@
+.root {
+  cursor: pointer;
+  color: var(--color-primary-text);
+  background-color: var(--color-primary);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  transition: all var(--transition-md);
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+}
+
+.root:hover, .root:focus-visible {
+  background-color: var(--color-primary-light);
+} 

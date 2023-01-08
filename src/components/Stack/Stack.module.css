@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* using the "lobotomized owl" selector: https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
+.root.md > * + * {
+  margin-top: var(--spacing-md)
+}
+.root.xl > * + * {
+  margin-top: var(--spacing-xl)
+}

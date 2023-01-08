@@ -1,0 +1,29 @@
+.root {
+  padding: var(--spacing-md);
+  height: 100%;
+  text-align: center;
+  background-color: var(--color-card-bg);
+  border-radius: var(--border-radius);
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-md);
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.root:hover, .root:focus-visible {
+  background-color: var(--color-card-bg-hover);
+} 
+
+.root.selected {
+  background-color: var(--color-primary);
+  color: var(--color-primary-text)
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 9 / 14;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+}
